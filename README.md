@@ -13,6 +13,13 @@ Un juego de preguntas y respuestas sobre NumPy y Pandas construido con Flask y S
 - **Estadísticas** de partidas jugadas
 - **Interfaz moderna** con animaciones
 
+## Requisitos previos
+
+Antes de comenzar, asegúrate de tener instalado:
+
+- **Python 3.8 o superior**
+- **uv** - Gestor de proyectos Python (instala desde: https://docs.astral.sh/uv/getting-started/installation/)
+
 ## Descargar el proyecto
 
 ### Opción 1: Con Git
