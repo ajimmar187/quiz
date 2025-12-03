@@ -1,19 +1,19 @@
-# 🎯 Quiz Master - NumPy & Pandas
+# Quiz Master - NumPy & Pandas
 
 Un juego de preguntas y respuestas sobre NumPy y Pandas construido con Flask y SQLite.
 
 ## Características
 
-✅ **Temas disponibles:** NumPy, Pandas, o todos mezclados
-✅ **10 preguntas por ronda** seleccionadas aleatoriamente
-✅ **3 opciones de respuesta** por pregunta
-✅ **Explicaciones** después de cada respuesta
-✅ **Puntuación final** con mensaje personalizado
-✅ **Base de datos SQLite** para almacenar preguntas (fácil de ampliar)
-✅ **Estadísticas** de partidas jugadas
-✅ **Interfaz moderna** con animaciones
+- **Temas disponibles:** NumPy, Pandas, o todos mezclados
+- **10 preguntas por ronda** seleccionadas aleatoriamente
+- **3 opciones de respuesta** por pregunta
+- **Explicaciones** después de cada respuesta
+- **Puntuación final** con mensaje personalizado
+- **Base de datos SQLite** para almacenar preguntas (fácil de ampliar)
+- **Estadísticas** de partidas jugadas
+- **Interfaz moderna** con animaciones
 
-## 📥 Descargar el proyecto
+## Descargar el proyecto
 
 ### Opción 1: Con Git
 ```bash
@@ -31,7 +31,7 @@ cd quiz
 cd quiz
 ```
 
-## 🔨 Construcción del proyecto
+## Construcción del proyecto
 
 Instala las dependencias usando `uv`:
 
@@ -41,7 +41,7 @@ uv sync
 
 Este comando instalará todas las dependencias definidas en `pyproject.toml`.
 
-## ▶️ Ejecutar la aplicación
+## Ejecutar la aplicación
 
 ### Iniciar el servidor
 ```bash
@@ -173,5 +173,3 @@ conn.close()
 - **Estilos:** CSS moderno con gradientes y animaciones
 
 ---
-
-¡Buena suerte con el quiz! 🍀
