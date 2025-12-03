@@ -13,9 +13,17 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            background: linear-gradient(135deg, #2c5aa0 0%, #1a7a8a 50%, #2d6a4f 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
             min-height: 100vh;
             color: #fff;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
 
         .container {
@@ -33,7 +41,7 @@
         header h1 {
             font-size: 3em;
             margin-bottom: 10px;
-            text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 212, 255, 0.8);
         }
 
         header p {
@@ -89,6 +97,7 @@
         .tema-card h3 {
             font-size: 1.5em;
             margin-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         }
 
         .tema-card p {
@@ -131,6 +140,8 @@
             line-height: 1.5;
             margin-bottom: 30px;
             min-height: 80px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            font-weight: 600;
         }
 
         .opciones {
@@ -190,6 +201,7 @@
 
         .opcion-texto {
             flex: 1;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
         }
 
         /* Feedback */
@@ -222,7 +234,7 @@
 
         .btn-siguiente {
             background: linear-gradient(135deg, #00d4ff, #00ff88);
-            color: #1a1a2e;
+            color: #fff;
             border: none;
             padding: 15px 40px;
             font-size: 1.1em;
@@ -231,6 +243,9 @@
             cursor: pointer;
             margin-top: 20px;
             transition: all 0.3s ease;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .btn-siguiente:hover {
@@ -343,7 +358,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>🎯 Quiz Master</h1>
+            <h1>🎓 IA Quiz Master</h1>
             <p>Pon a prueba tus conocimientos de IA/Big Data</p>
         </header>
 
